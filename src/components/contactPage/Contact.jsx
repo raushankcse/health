@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../../App.css'
 
 // React Icons
@@ -30,12 +30,12 @@ const Contact = () => {
       </div>
 
       {/* Main Navbar */}
-      <div class="main-navbar conner-style style-2 position-fixed">
-        <div class="container padding-none">
-          <div class="row">
-            <div class="col-md-12">
-              <nav class="navbar navbar-default">
-                <div class="navbar-header"></div>
+      <div className="main-navbar conner-style style-2 position-fixed">
+        <div className="container padding-none">
+          <div className="row">
+            <div className="col-md-12">
+              <nav className="navbar navbar-default">
+                <div className="navbar-header"></div>
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations-delay="1.8s" data-animations="fadeInUp">
                   <ul className="nav navbar-nav bg-none navbar-right style-3">
                     <li className="dropdown active">
