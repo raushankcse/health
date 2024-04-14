@@ -1,13 +1,394 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Health Care</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Seva</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Responsive stylesheet  -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+
+</head>
+ 
+<body>
+
+    <div class="preloader"></div>
+
+     <!-- Header navbar start -->
+    <div class="main-navbar conner-style style-2 position-fixed">
+        <div class="container padding-none">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="" style="height: 12vh; padding: 5px; margin-top: 2px; border-radius: 100%;">
+                            </a>
+                            
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations-delay="1.8s" data-animations="fadeInUp">
+                            <ul class="nav navbar-nav bg-none navbar-right style-3">
+                                
+                                <li >
+                                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-hover="Depertment">Home</span></a>   
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-hover="Depertment">Execise <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="depertment-1.html">Hand Exercise</a>
+                                        </li>
+                                        <li><a href="depertment-2.html">Leg Exercise</a>
+                                        </li>
+                                        <li><a href="depertment-3.html">Spinal Exercise</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span data-hover="Doctors">Doctors <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="team-col-3.html">Doctors style 1</a>
+                                        </li>
+                                        <li><a href="team-col-4.html">Doctors style 2</a>
+                                        </li>
+                                        <li><a href="team-details.html">Doctors details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <a href="#"><span data-hover="Contact">Contact Us</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span data-hover="Contact">About Us</span></a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-hover="Blog">Login</span></a>
+                                        
+                                    </li>
+                                    <!--  -->
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header navbar end -->
+
+    <!-- Start  bootstrap-touch-slider Slider -->
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Third Slide -->
+            <div class="item active">
+                <!-- Slide Background -->
+                <video src="video/1.mp4" autoplay muted loop style="width: 100%;"></video>
+                <div class="bs-slider-overlay"></div>
+
+                <div class="slide-text slide_style_left">
+                    <h1 data-animation="animated fadeInRight"><span class="color-defult"> Seva </span></h1>
+                    <p data-animation="animated fadeInLeft">Aapki Seva<br> Hamari Jimmedari</p>
+                    <a target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Read more</a>
+                    <a target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">Book Now</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+
+            <!-- Second Slide -->
+            <div class="item">            
+                <!-- Slide Background -->
+                <video src="video/2.mp4" autoplay muted loop style="width: 100%;"></video>
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_center">
+                    <h1 data-animation="animated bounceInDown"><span class="color-defult"> Exercies </span></h1>
+                    <p data-animation="animated lightSpeedIn">"Strengthen hands, legs, and spine with targeted exercises for enhanced </br> mobility and vitality. Empower your body's potential today!"</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Read More</a>
+                    <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">Practice Now</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+            
+            <!-- Third Slide -->
+            <div class="item">            
+                <!-- Slide Background -->
+                <video src="video/3.mp4" autoplay muted loop style="width: 100%;"></video>
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_right">
+                    <h1 data-animation="animated fadeInLeft">Benefits of <span class="color-defult"> Exercise</span></h1>
+                    <p data-animation="animated fadeInRight">Exercise boosts strength, flexibility, and mood while reducing pain. <br> Enhance hand, leg, and spinal health for a healthier, happier you!</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Read More</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Practice Now</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+        </div><!-- End of Wrapper For Slides -->
+
+        <!-- Left Control -->
+        <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <!-- Right Control -->
+        <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div> <!-- End  bootstrap-touch-slider Slider -->
+
+    <!-- divider start -->
+    <section class="about-3col animatedParent animateOnce">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="about-feature style-2">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="appointment-item">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                <h5><a href="#">Our Doctors</a></h5>
+                                <div class="line-border-center bg-gray margin-bottom-20"></div>
+                                <p>Choose by name, specialty, city and more.</p>
+                                <button class="btn btn-theme btn-sm">Find a Doctor <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="appointment-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h5><a href="#">Department & Service</a></h5>
+                                <div class="line-border-center bg-gray margin-bottom-20"></div>
+                                <p>Find maps and more for all locations.</p>
+                                <button class="btn btn-theme btn-sm">Get Directions <i class="fa-solid fa-arrow-right"></i></i></button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 center-block">
+                            <div class="appointment-item">
+                                <i class="fa-regular fa-calendar-check"></i>
+                                <h5><a href="#">Appointments</a></h5>
+                                <div class="line-border-center bg-gray margin-bottom-20"></div>
+                                <p>Click in, walk in or call us today.</p>
+                                <button class="btn btn-theme btn-sm">Get Appointment <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider end -->
+
+    <!-- welcome start -->
+    <section>
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Why chose us</h2>
+                        <h3 class="color-defult">Strength in Motion, Healing in Action.</h3>
+                        <p class="lead">Seva is here for you. Call <span class="ff-p">+000 000 0000</span></p>
+                        <p><span class="fw-b">Select</span> us for specialized post-fracture care. Our targeted hand, leg, and spinal exercises are meticulously designed to aid healing, restore mobility, and bolster confidence in your recovery process.</p>
+                        <div class="row margin-top-20">
+                            <div class="col-md-6">
+                                <img class="margin-top-10" src="img/home/p1.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <p>With <span class="color-defult fw-b">personalized attention</span> and expert guidance, we ensure a comprehensive rehabilitation experience tailored to your unique needs. Trust us to support you every step of the way towards regaining strength, flexibility, and independence after your fracture.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div>
+                           <img alt="" src="img/home/p2.jpg"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- welcome end -->
+
+    <!-- service start -->
+    <section class="service-area bg-f8 animatedParent animateOnce">
+        <div class="container">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2>Our <span class="color-defult">Services</span></h2>
+                        <div class="line-border-center bg-defult"></div>
+                        <p>Tailored post-fracture rehab: specialized hand, leg, and spinal exercises promoting healing, mobility, and confidence. Expert guidance for personalized recovery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-item text-center style-3">
+                            <i class="fa-regular fa-hand"></i>
+                            <h4><a href="#">Hand Exercies</a></h4>
+                            <div class="border-center"></div>
+                            <p>Customized hand exercises post-fracture aid healing, restore mobility, and strengthen grip, ensuring a smoother recovery with expert guidance.</p>
+                            <button type="submit" class="btn btn-theme margin-top-20" data-text="Send Message">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-item text-center style-3">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                            <h4><a href="#">Leg Exercies</a></h4>
+                            <div class="border-center"></div>
+                            <p> Gentle yet effective leg exercises post-fracture promote healing, strength, and mobility, facilitating a smooth recovery and return to normal activities.</p>
+                            <button type="submit" class="btn btn-theme margin-top-20" data-text="Send Message">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-item text-center style-3">
+                            <i class="fa-solid fa-notes-medical"></i>
+                            <h4><a href="#">Spinal Cord Exercies</a></h4>
+                            <div class="border-center"></div>
+                            <p> Tailored spinal cord exercises post-fracture aid recovery, enhance mobility, and strengthen core muscles for improved stability and function.</p>
+                            <button type="submit" class="btn btn-theme margin-top-20" data-text="Send Message">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+
+
+
+
+    <!-- Footer Style start -->
+    <footer class="bg-faded">
+        <div class="container">
+            <div class="section-content">
+                <div class="row margin-top-30">
+                    <div class="col-md-3">
+                      <div class="footer-item footer-widget-one">
+                          <img alt="" src="img/logo.png" class="footer-logo">
+                          <p>Aapki Seva, Hamari Jimmedari</p>
+
+                          
+                          
+                          <hr>
+                          <ul class="social-icon bg-theme">
+                            <li><a ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a ><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a ><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="footer-item">
+                        <div class="footer-title">
+                          <h4>Our Peges </h4>
+                          <div class="border-style-2"></div>
+                        </div>
+                        <ul class="footer-list border-deshed color-icon">
+                          <li><i class="fa-solid fa-hand-point-right"></i><a href="#">About Us</a></li>
+                          <li><i class="fa-solid fa-hand-point-right"></i><a href="#">Exercies</a></li>
+                          <li><i class="fa-solid fa-hand-point-right"></i><a href="#">Gallery</a></li>
+                          <li><i class="fa-solid fa-hand-point-right"></i><a href="#">Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="footer-item">
+                        <div class="footer-title">
+                          <h4>Our Exercies </h4>
+                          <div class="border-style-2"></div>
+                        </div>
+                        <ul class="footer-list border-deshed color-icon">
+                          <li><i class="fa-solid fa-hand-point-right"></i></i><a href="#">Hand Exercies</a></li>
+                          <li><i class="fa-solid fa-hand-point-right"></i></i><a href="#">Leg Exercies</a></li>
+                          <li><i class="fa-solid fa-hand-point-right"></i></i><a href="#">Spinal Cord Execise</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="footer-item">
+                        <div class="footer-item clearfix">
+                          <div class="footer-title">
+                            <h4>Fliker Feed</h4>
+                            <div class="border-style-1"></div>
+                          </div>
+                          <div class="flicker-feed gutter">
+                            <a href="img/flicker/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/1.jpg" alt=""></a>
+                            <a href="img/flicker/2.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/2.jpg" alt=""></a>
+                            <a href="img/flicker/3.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/3.jpg" alt=""></a>
+                            <a href="img/flicker/4.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/4.jpg" alt=""></a>
+                            <a href="img/flicker/5.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/5.jpg" alt=""></a>
+                            <a href="img/flicker/6.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/6.jpg" alt=""></a>
+                            <a href="img/flicker/7.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/7.jpg" alt=""></a>
+                            <a href="img/flicker/8.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/8.jpg" alt=""></a>
+                            <a href="img/flicker/9.jpg" class="lightbox-image" title="Image Caption Here"><img src="img/flicker/9.jpg" alt=""></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Style End -->
+
+  
+    <a href="#" class="scrollup"><i class="fa-solid fa-up-long"></i></a>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- all plugins and JavaScript -->
+    <script src="https://kit.fontawesome.com/d82d62be47.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="js/css3-animate-it.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdownhover.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+    <script type="text/javascript" src="js/player.min.js"></script>
+    <script type="text/javascript" src="js/retina.js"></script>
+    <script type="text/javascript" src="js/comming-soon.js"></script>
+
+    <!-- Main Custom JS -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+
+
+
 </html>
+

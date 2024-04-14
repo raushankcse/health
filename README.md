@@ -1,11 +1,11 @@
 # SEWA Documentation
 
 ## 1. Introduction
-#### Overview of SEWA
+#### Overview of SEVA
    Welcome to the documentation for SEWA (Sevs Ekta Welfare Assistant), a revolutionary post-treatment exercise kit designed to assist patients in their rehabilitation journey. SEWA, which translates to "Service Responsibility" in English, embodies our commitment to supporting individuals in their recovery process with dedication and care.
 
    ### Purpose of the Project
-   The primary purpose of SEWA is to enhance the post-treatment experience for patients undergoing rehabilitation by offering a user-friendly and effective solution for exercise management. By facilitating consistent engagement with prescribed exercises and enabling real-time progress tracking, SEWA strives to optimize recovery outcomes and promote patient well-being.
+   The primary purpose of SEVA is to enhance the post-treatment experience for patients undergoing rehabilitation by offering a user-friendly and effective solution for exercise management. By facilitating consistent engagement with prescribed exercises and enabling real-time progress tracking, SEWA strives to optimize recovery outcomes and promote patient well-being.
     
    ### Target Audience
    SEWA is designed to cater to a wide range of individuals, including:
@@ -41,7 +41,7 @@ SEWA offers a range of features to facilitate post-treatment rehabilitation and 
 SEWA is currently available as a web portal designed to facilitate post-treatment rehabilitation and exercise management. Below are the instructions for using the SEWA web portal effectively:
 
 ### Instructions for Using the SEWA Web Portal
-1. **Accessing the Portal**: To access the SEWA web portal, visit [portal URL] and log in using your credentials provided during registration.
+1. **Accessing the Portal**: To access the SEVA web portal, visit [portal URL] and log in using your credentials provided during registration.
 2. **Dashboard Overview**: Upon logging in, you will be greeted with the dashboard, which provides an overview of your exercise progress, upcoming sessions, and any notifications.
 3. **Exercise Tracking**: Navigate to the "Exercise Tracking" section to log your exercise sessions. Enter the date, duration, and details of each exercise session as prescribed by your healthcare provider.
 4. **Viewing Progress**: Utilize the progress tracking features to monitor your improvement over time. Charts and graphs display your exercise history, allowing you to visualize your progress and identify trends.
@@ -55,6 +55,7 @@ While the SEWA web portal currently serves as a comprehensive tool for exercise 
 
 
 ### 4. Installation
+
    - Requirements
    - Installation steps
    - Dependencies
@@ -92,6 +93,10 @@ By implementing these future enhancements, SEWA can continue to evolve and addre
    
 ### 8. Contributors
    - List of team members who contributed to the project
+   Raushan Kumar
+   Supriya Ranjan
+   Robind Kumar
+   Yashwant Singh
    
 ### 9. Acknowledgements
    - Any acknowledgements or credits
