@@ -1,6 +1,6 @@
 import './App.css'
-import Landing from './components/landingPage/landing'
-import About from './components/aboutPage/page'
+import Landing from './components/landingPage/Landing'
+import About from './components/aboutPage/about'
 import Contact from './components/contactPage/contact'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/about',
-    element: <div ><About/></div>
+    element: <div ><About /></div>
   },
   {
     path: '/contact',
