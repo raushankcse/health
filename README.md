@@ -93,10 +93,10 @@ By implementing these future enhancements, SEWA can continue to evolve and addre
    
 ### 8. Contributors
    - List of team members who contributed to the project
-   Raushan Kumar
-   Supriya Ranjan
-   Robind Kumar
-   Yashwant Singh
+   - Raushan Kumar
+   - Supriya Ranjan
+   - Robind Kumar
+   - Yashwant Singh
    
 ### 9. Acknowledgements
    - Any acknowledgements or credits
