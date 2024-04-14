@@ -1,13 +1,17 @@
+import React from 'react';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+
+
+
 import './App.css'
-import Landing from './components/landingPage/Landing.jsx'
-import About from './components/aboutPage/about.jsx'
-import Contact from './components/contactPage/Contact.jsx'
+import Landing from './components/landingPage/Landing'
+import About from './components/aboutPage/About'
+import Contact from './components/contactPage/Contact'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Import React router dom
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-// Creating router
+// Creating router  
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,6 +27,24 @@ const router = createBrowserRouter([
     element:<Contact />
   }
 ])
+
+
+
+
+// const router = createBrowserRouter(
+//   createRoutesFromElements(
+//     <Route path="/" element={<Landing />}>
+
+//       <Route index element={<Landing />} />
+//       <Route path="about" element={<About />} />
+//       <Route path="contact" element={<Contact />} />
+      
+//     </Route>
+//   )
+// )
+
+
+
 
 function App() {
   return (
