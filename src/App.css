@@ -1,11 +1,6 @@
 /* CSS Document 
 
-Project Name:  Medicative Hospital || Health and Medical HTML5 Template
-Version:  1.0   
-Author Name: bdcoder / Set PVT.
-Support Email : shakil.shakil.ahsan@gmail.com
-Design By: Md Shakil Ahsan
-Creation Date: 24 May 2018
+
 
 *****=====***** TABLE OF CONTENT *****=====*****
 
@@ -36,7 +31,11 @@ Creation Date: 24 May 2018
 */
 /*****=====*****=====*****=====*****=====
     01. IMPORTED STYLE CSS
+    
 =====*****=====*****=====*****=====*****/
+
+
+
 /* GOOGLE FONTs */
 @import url("https://fonts.googleapis.com/css?family=Poppins|Raleway");
 /*****=====*****=====*****=====*****=====
@@ -5056,13 +5055,6 @@ footer {
 }
 
 /***** Coming Soon *****/
-.coming-soon {
-  color: #fff;
-  background-image: url("../img/bg/body.html");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .coming-soon h2 {
   font-size: 46px;
