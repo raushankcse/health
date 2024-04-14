@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 
 const Landing = () => {
@@ -6,7 +6,7 @@ const Landing = () => {
     <>
     <div>THis is landing page</div>
 
-    <Link href="">Contact</Link>
+  
      </>
     
 

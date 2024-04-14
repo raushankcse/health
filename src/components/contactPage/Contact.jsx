@@ -9,7 +9,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
-const contact = () => {
+const Contact = () => {
   return (
     <>
       <div>contact</div>
@@ -403,4 +403,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

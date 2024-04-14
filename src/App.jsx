@@ -1,7 +1,7 @@
 import './App.css'
 import Landing from './components/landingPage/Landing'
-import About from './components/aboutPage/about'
-import Contact from './components/contactPage/contact'
+import About from './components/aboutPage/About'
+import Contact from './components/contactPage/Contact'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Import React router dom
